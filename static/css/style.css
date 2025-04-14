@@ -1,0 +1,140 @@
+/* Main theme colors */
+:root {
+    --primary: #6C63FF;
+    --secondary: #FF6584;
+    --background: #f8f9fa;
+    --card-bg: #ffffff;
+    --text: #212529;
+}
+
+/* Page styling */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Card styling */
+.book-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    position: relative;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Book image */
+.book-img {
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Book information */
+.book-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+    color: var(--text);
+}
+
+.book-author {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.3rem;
+}
+
+.book-rating {
+    color: #ff9800;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Badge styles */
+.badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.badge-new {
+    background-color: var(--primary);
+}
+
+.badge-popular {
+    background-color: var(--secondary);
+}
+
+/* Banner styling */
+.welcome-banner {
+    background: linear-gradient(135deg, var(--primary) 0%, #8E2DE2 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Section headers */
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.section-header hr {
+    flex-grow: 1;
+    margin-left: 1rem;
+    border: none;
+    height: 1px;
+    background-color: #e9ecef;
+}
+
+/* Loader */
+.loader {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+/* Button styling */
+.stButton>button {
+    border-radius: 20px;
+    padding: 0.25rem 1rem;
+    font-size: 0.85rem;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: #f1f3f9;
+}
+
+/* Search bar */
+.search-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+}
